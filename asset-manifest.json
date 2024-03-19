@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/GameStore/static/css/main.7f504fc3.css",
+    "main.js": "/GameStore/static/js/main.a906ea01.js",
+    "static/media/927108.jpg": "/GameStore/static/media/927108.f0272ce5b6fe71493f56.jpg",
+    "static/media/632759.jpg": "/GameStore/static/media/632759.6736ead01a474c8549f2.jpg",
+    "static/media/1271241.jpg": "/GameStore/static/media/1271241.4e2ece59e480240c6ab9.jpg",
+    "static/media/product-3-1280x820.jpg": "/GameStore/static/media/product-3-1280x820.5c0188983f10fd8cc1d4.jpg",
+    "static/media/title.jpg": "/GameStore/static/media/title.e23dffcfae7e4d34f256.jpg",
+    "static/media/stretched-1920-1080-1077274.jpg": "/GameStore/static/media/stretched-1920-1080-1077274.ced47293ded29e29dad9.jpg",
+    "static/media/bg-footer.jpg": "/GameStore/static/media/bg-footer.0f1f00fa9774945edc9f.jpg",
+    "static/media/product-7-1280x820.jpg": "/GameStore/static/media/product-7-1280x820.5e81d2abab2834de16a3.jpg",
+    "static/media/grand-theft-auto-v-wallpaper-preview.jpg": "/GameStore/static/media/grand-theft-auto-v-wallpaper-preview.99e913b54ad6a56797f6.jpg",
+    "static/media/call-of-duty-black-ops-iii-call-of-duty-video-games-call-of-duty-black-ops-wallpaper-preview.jpg": "/GameStore/static/media/call-of-duty-black-ops-iii-call-of-duty-video-games-call-of-duty-black-ops-wallpaper-preview.8a728d8d0e6b6c8ded14.jpg",
+    "static/media/the-game-ubisoft-game-shooter-far-cry-6-hd-wallpaper-preview.jpg": "/GameStore/static/media/the-game-ubisoft-game-shooter-far-cry-6-hd-wallpaper-preview.d3d1d155813d8c96fc3e.jpg",
+    "static/media/detroit-become-human-games-art-detroit-beco.jpg": "/GameStore/static/media/detroit-become-human-games-art-detroit-beco.691c11f289b21f39f88a.jpg",
+    "static/media/red-dead-redemption-red-gamers-gamer-wallpaper-preview.jpg": "/GameStore/static/media/red-dead-redemption-red-gamers-gamer-wallpaper-preview.8d80fbbe03733e951e6e.jpg",
+    "static/media/hat-stock.xyz894975.jpg": "/GameStore/static/media/hat-stock.xyz894975.f2e577508a914693264d.jpg",
+    "static/media/product-8-1280x820.jpg": "/GameStore/static/media/product-8-1280x820.775bb203b3f9a6079720.jpg",
+    "static/media/elden-ring-landscape-game-art-video-game-art-video-games-hd-wallpaper-preview.jpg": "/GameStore/static/media/elden-ring-landscape-game-art-video-game-art-video-games-hd-wallpaper-preview.0db0112e1c98cc0da9ae.jpg",
+    "static/media/delete-button-svgrepo-com.svg": "/GameStore/static/media/delete-button-svgrepo-com.871740cc0d8ec58220557d9198ed3b7e.svg",
+    "index.html": "/GameStore/index.html",
+    "main.7f504fc3.css.map": "/GameStore/static/css/main.7f504fc3.css.map",
+    "main.a906ea01.js.map": "/GameStore/static/js/main.a906ea01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f504fc3.css",
+    "static/js/main.a906ea01.js"
+  ]
+}
