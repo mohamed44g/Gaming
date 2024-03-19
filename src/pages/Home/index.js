@@ -1,8 +1,10 @@
 import React, { useRef } from "react";
-import Video from "../../assets/Video/ASSASSIN'S CREED VALHALLA- LAUNCH TRAILER.mp4";
+// import Video from "../../assets/Video/ASSASSIN'S CREED VALHALLA- LAUNCH TRAILER.mp4";
 import Img from "../../assets/Images/stretched-1920-1080-1077274.jpg";
 import "./Home.scss";
 import NavIcons from "../../componantes/NavIcons/index";
+import ReactPlayer from "react-player";
+import "video-react/dist/video-react.css";
 
 function HomePage() {
   const ref = useRef();
@@ -97,10 +99,27 @@ function HomePage() {
           <button className="btn">Play</button>
         </div>
 
-        <div className="game-promo u--fadeInRight">
-          <video className="vid-promo" controls poster={Img}>
-            <source src={Video} type="video/mp4" />
-          </video>
+        {/* <div className="game-promo u--fadeInRight">
+          <iframe
+            className="vid-promo"
+            src="https://app.videas.fr/embed/media/0647e38d-379e-4690-8c0a-8e0d7ef6a173/"
+            title="ASSASSIN&#39;S CREED VALHALLA: LAUNCH TRAILER"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div> */}
+        <div className="game-promo">
+          <iframe
+            width="100%"
+            height="100%"
+            title="ASSASSIN&#39;S CREED VALHALLA: LAUNCH TRAILER"
+            src="https://app.videas.fr/embed/media/0647e38d-379e-4690-8c0a-8e0d7ef6a173/"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen="true"
+            referrerpolicy="unsafe-url"
+          ></iframe>
         </div>
       </div>
     </div>
