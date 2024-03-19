@@ -1,0 +1,25 @@
+.shoping-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  .shoping-card-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  
+  .title-container {
+    width: 50%;
+  }
+  
+  .price-container {
+    color: #7a65bd;
+  }
+
+  .delete-icon {
+    width: 20px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,16 @@
+.News {
+  margin-top: 200px;
+  .News-Cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 992px) {
+  .News {
+    .News-Cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

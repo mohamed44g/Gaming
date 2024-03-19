@@ -1,0 +1,225 @@
+.home-page {
+  .bg {
+    width: 100%;
+    height: 800px;
+    background-image: url("../../assets/Images/stretched-1920-1080-1077274.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10;
+    z-index: -1;
+  }
+
+  .home-page-content {
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .game-detail {
+      width: 500px;
+      margin-top: 20px;
+      h1 {
+        font-weight: 800;
+        color: #fff;
+        border-radius: 2px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+      }
+
+      #title-word {
+        color: #7a65bd;
+      }
+
+      p {
+        color: #9590a8;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 15px;
+      }
+
+      .btn {
+        color: #fff;
+        background-color: #7a65bd;
+        margin-top: 30px;
+        margin-left: 15px;
+        width: 150px;
+        transition: 0.5s;
+        &:hover {
+          background-color: #fff;
+          color: #1f1c29;
+        }
+      }
+
+      .game-rating-home {
+        margin-top: 20px;
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .game-promo {
+    width: 600px;
+    height: 500px;
+
+    .vid-promo {
+      width: 100%;
+    }
+  }
+}
+
+.NavIcons-sm {
+  margin-top: 30px;
+  margin-left: -20px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  .home-page {
+    .bg {
+      height: 900px;
+      background-size: cover;
+    }
+
+    .home-page-content {
+      top: 200px;
+      .game-detail {
+        order: 2;
+        margin: 20px auto 0 auto;
+        margin-left: 10px;
+
+        h1 {
+          margin-left: -5px;
+        }
+
+        p {
+          margin-top: 0px;
+          margin-left: 7px;
+          font-size: 14px;
+        }
+
+        .btn {
+          width: 100px;
+          margin-left: 7px;
+        }
+
+        .game-rating-home {
+          margin-left: 7px;
+        }
+      }
+      .game-promo {
+        order: 1;
+        width: 95%;
+        height: auto;
+        margin: 0 auto 20px auto;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 786px) {
+  .home-page {
+    .bg {
+      height: 900px;
+      background-size: cover;
+    }
+
+    .home-page-content {
+      top: 200px;
+      .game-detail {
+        order: 2;
+        margin: 20px auto 0 auto;
+        margin-left: 10px;
+
+        h1 {
+          margin-left: 5px;
+        }
+
+        p {
+          margin-top: 10px;
+        }
+
+        .btn {
+          width: 100px;
+        }
+      }
+      .game-promo {
+        order: 1;
+        width: 90%;
+        height: auto;
+        margin: 0 auto 20px auto;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .home-page {
+    .bg {
+      height: 900px;
+      background-size: cover;
+    }
+
+    .home-page-content {
+      top: 150px;
+      .game-detail {
+        width: 93%;
+        order: 2;
+        margin: 20px auto 0 auto;
+
+        h1 {
+          margin-left: 5px;
+        }
+
+        p {
+          margin-top: 10px;
+        }
+
+        .btn {
+          width: 100px;
+        }
+      }
+      .game-promo {
+        order: 1;
+        width: 90%;
+        height: auto;
+        margin: 0 auto 20px auto;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .home-page {
+    .bg {
+      height: 1000px;
+      background-size: cover;
+    }
+
+    .home-page-content {
+      top: 150px;
+      .game-detail {
+        width: 78%;
+        order: 2;
+        margin: 20px auto 0 auto;
+
+        h1 {
+          margin-left: 5px;
+        }
+
+        p {
+          margin-top: 10px;
+        }
+
+        .btn {
+          width: 100px;
+        }
+      }
+      .game-promo {
+        order: 1;
+        width: 75%;
+        height: auto;
+        margin: 0 auto 20px auto;
+      }
+    }
+  }
+}

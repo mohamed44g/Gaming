@@ -1,0 +1,33 @@
+.NavIcons {
+  margin-top: 15px;
+  li {
+    margin: 5px 15px;
+
+    svg {
+      fill: none;
+      stroke: #fff;
+      transition: 0.3s;
+
+      &:hover {
+        stroke: #7a65bd;
+      }
+    }
+  }
+
+  li:nth-of-type(2) {
+    margin-top: -15px;
+  }
+
+  .prodcuts-number {
+    color: #fff;
+    background-color: #7a65bd;
+    text-align: center;
+    width: 15px;
+    height: 16px;
+    border-radius: 10px;
+    position: relative;
+    left: 17px;
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+}

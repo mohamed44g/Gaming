@@ -1,0 +1,68 @@
+.navbar {
+  background-color: #312837;
+  padding: 15px 0;
+
+  .Nav-container {
+    width: 76%;
+    margin: 0 auto;
+  }
+
+  .Nav-icon {
+    width: 50px;
+  }
+
+  .Nav-links {
+    margin-top: 15px;
+  }
+
+  .navbar-links-ul {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+
+    li {
+      margin: 0 20px;
+      &:hover {
+        border-bottom: #7a65bd 4px solid;
+      }
+    }
+  }
+
+  .MenuIcon {
+    width: 35px;
+    height: 35px;
+    display: none;
+    margin-top: -2px;
+    &:hover .sidenav {
+      width: 400px;
+    }
+  }
+}
+
+.navbar-links-ul,
+.NavIcons {
+  display: flex;
+  list-style: none;
+}
+
+.NavIcons-container {
+  width: fit-content;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 992px) {
+  .navbar {
+    .Nav-links,
+    .NavIcons-container {
+      display: none;
+    }
+
+    .Nav-icon {
+      width: 35px;
+      margin-top: -5px;
+    }
+
+    .MenuIcon {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,134 @@
+.contact {
+  position: relative;
+  top: 500px;
+  margin-top: 200px;
+
+  .contact-detail {
+    width: 58%;
+    margin-bottom: 50px;
+
+    p {
+      color: #9590a8;
+      font-size: 18px;
+    }
+
+    .contact-icons {
+      width: 30%;
+    }
+  }
+
+  .contact-form {
+    width: 60%;
+
+    form {
+      width: 100%;
+    }
+
+    .inputName,
+    .inputEmail {
+      width: 45%;
+      height: 45px;
+      margin: 10px;
+      background-color: #3a3747;
+      border: 0;
+      border-radius: 3px;
+      padding: 15px;
+      color: #fff;
+      &::placeholder {
+        color: #fff;
+      }
+    }
+
+    textarea {
+      width: 93%;
+      margin-left: 10px;
+      margin-top: 10px;
+      background-color: #3a3747;
+      border: 0;
+      border-radius: 3px;
+      padding: 15px;
+      color: #fff;
+      &::placeholder {
+        color: #fff;
+      }
+    }
+
+    .submit {
+      width: 15%;
+      height: 35px;
+      margin-left: 10px;
+      margin-top: 20px;
+      background-color: #7a65bd;
+      color: #fff;
+      border: 0;
+      border-radius: 3px;
+    }
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  .contact {
+    .contact-detail {
+      width: 100%;
+
+      .contact-icons {
+        width: 40%;
+      }
+    }
+
+    .contact-form {
+      margin-top: 50px;
+      width: 100%;
+
+      .inputName,
+      .inputEmail {
+        width: 95%;
+        margin: 0 0 20px 0;
+      }
+
+      textarea {
+        width: 95%;
+        margin-left: 0px;
+      }
+
+      .submit {
+        width: 30%;
+        margin-left: 0px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 992px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    .contact-detail {
+      width: 95%;
+
+      .contact-icons {
+        width: 40%;
+      }
+    }
+
+    .contact-form {
+      margin-top: 50px;
+      width: 95%;
+
+      .inputName,
+      .inputEmail {
+        width: 95%;
+        margin: 0 0 20px 0;
+      }
+
+      textarea {
+        width: 95%;
+        margin-left: 0px;
+      }
+
+      .submit {
+        width: 30%;
+        margin-left: 0px;
+      }
+    }
+  }
+}
