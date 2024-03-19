@@ -3,8 +3,7 @@ import React, { useRef } from "react";
 import Img from "../../assets/Images/stretched-1920-1080-1077274.jpg";
 import "./Home.scss";
 import NavIcons from "../../componantes/NavIcons/index";
-import ReactPlayer from "react-player";
-import "video-react/dist/video-react.css";
+
 
 function HomePage() {
   const ref = useRef();
