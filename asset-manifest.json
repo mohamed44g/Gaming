@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Gaming/static/css/main.b23c6d98.css",
-    "main.js": "/Gaming/static/js/main.6030f863.js",
+    "main.js": "/Gaming/static/js/main.e1abdec1.js",
     "static/media/927108.jpg": "/Gaming/static/media/927108.f0272ce5b6fe71493f56.jpg",
     "static/media/632759.jpg": "/Gaming/static/media/632759.6736ead01a474c8549f2.jpg",
     "static/media/1271241.jpg": "/Gaming/static/media/1271241.4e2ece59e480240c6ab9.jpg",
@@ -21,10 +21,10 @@
     "static/media/delete-button-svgrepo-com.svg": "/Gaming/static/media/delete-button-svgrepo-com.871740cc0d8ec58220557d9198ed3b7e.svg",
     "index.html": "/Gaming/index.html",
     "main.b23c6d98.css.map": "/Gaming/static/css/main.b23c6d98.css.map",
-    "main.6030f863.js.map": "/Gaming/static/js/main.6030f863.js.map"
+    "main.e1abdec1.js.map": "/Gaming/static/js/main.e1abdec1.js.map"
   },
   "entrypoints": [
     "static/css/main.b23c6d98.css",
-    "static/js/main.6030f863.js"
+    "static/js/main.e1abdec1.js"
   ]
 }
